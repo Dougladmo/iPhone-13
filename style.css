@@ -33,6 +33,11 @@ header #navbar {
   font-size: 12px;
 }
 
+#navbar a:hover {
+  color: #ffffffd4;
+  transition: .2s;
+}
+
 #header-bottom {
   padding: 16px;
   width: 100vw;
@@ -72,6 +77,10 @@ header #navbar {
 #ribbon a {
   text-decoration: none;
   color: #0071e3;
+}
+
+#ribbon a:hover {
+  text-decoration: underline;
 }
 
 main {
